@@ -1,0 +1,30 @@
+package ej17_taller2;
+import java.util.Scanner;
+
+public class EJ17_TALLER2 
+{
+
+    
+    public static void main(String[] args) 
+    {
+        Scanner lea = new Scanner (System.in) ;
+        int npt;
+        float vrp, vrcom, tpro, vcond, gnta; 
+        System.out.print("DIGITE LA CANTIDAD DE PASAJEROS: ");
+        npt = lea.nextInt();
+        System.out.println("DIGITE EL VALOR DEL PASAJE: ");
+        vrp =lea.nextFloat();
+        System.out.println("VALOR COMBUSTIBLE: ");
+        vrcom =lea.nextFloat();
+        tpro = npt * vrp;
+        vcond = tpro * 10/100;
+        gnta = tpro - vcond - vrcom;
+        System.out.println("");
+        System.out.println("");
+        System.out.println("**************** RESULTADOS ****************");
+        System.out.println("");
+        System.out.println("TOTAL PRODUCIDO: " + tpro);
+        System.out.println("VALOR PAGADO AL CONDUCTOR: " + vcond );
+        System.out.println("GANANCIA NETA: " + gnta);
+    }   
+}

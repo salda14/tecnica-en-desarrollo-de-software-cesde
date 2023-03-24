@@ -1,0 +1,23 @@
+CADENA [35] NOM
+ENTERO ED
+REAL EST
+CARACTER SX
+
+
+
+
+INICIO
+	ESCRIBA "NOMBRE: " 
+	LEA  NOM
+	ESCRIBA "EDAD: "
+	LEA ED	
+	ESCRIBA "ESTATURA: "
+	LEA EST
+	ESCRIBA "SEXO(F/M):  " 
+	LEA SX
+	ESCRIBA NOM, "  " , ED, "   ", EST,"    ", SX, "    "
+
+
+
+
+FIN
